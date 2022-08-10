@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* star background */
+    /* background:url(https://media1.giphy.com/media/FlodpfQUBSp20/200.webp?cid=ecf05e47x2mh751qzom1nkql7mc0s1k6wqodx7aaix2whmjg&rid=200.webp&ct=g); */
+    /* slight orange bcg */
+    background-color: rgb(228, 184, 131);
+    font-family: "Poppins";
+}
+.top-back{
+    /* navy blue */
+    /* background-color: rgb(38, 38, 67); */
+    /* soil orange colour */
+    background-color: #ca8310;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    /* border-radius: 49% 51% 86% 14% / 60% 50% 50% 40%  ; */
+    margin-top: 50px;
+    height: 1700px;
+}
+
+
+
+.head{
+    padding-top: 200px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 400;
+    
+}
+.head span{
+    /* color: burlywood; */
+    color: rgb(118, 66, 25);
+}
+
+
+.photo{
+    width: 400px;
+    margin-left: 25px;
+  margin-top: 30px;
+}
+.links{
+    font-size: 18px;
+    margin: 4px 0 10px 70px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    color: aliceblue;
+}
+.links a{
+    color: aliceblue;
+    text-decoration: none;
+
+}
+.fa-github-alt, .fa-desktop{
+    margin-right: 10px;
+}
+.box{
+    border: 3px dotted rgb(209, 209, 209);
+    border-radius: 10px;
+    width: 450px;
+}
+.flex-portfolio{
+    /* border: 1px solid rgb(0, 255, 72); */
+    margin: 130px 130px 0 130px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content:center;
+}
+
+
+.check{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 90px;
+    color:rgb(42, 41, 39);
+}
+.check .fa-github-alt{
+    color:rgb(42, 41, 39);
+}
+
+.footer{
+    height: 80px;
+    background-color: rgb(77, 56, 29);
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-left{
+    margin-left: 130px;
+}
+.footer-right{
+    margin-right: 130px;
+}
+.footer-logo{
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.footer-right a{
+    color: antiquewhite;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+@media screen and (max-width:600px) {
+   
+   .flex-portfolio{
+    margin: 70px 70px 0 70px;
+    gap: 30px;
+    
+   }
+    .top-back{
+        background-color:#ca8310;
+        height: auto;
+        /* border-radius:49% 51% 74% 26% / 58% 18% 82% 42%  */
+        /* border-radius:34% 66% 33% 67% / 51% 81% 19% 49%  ; */
+        border-radius: 30% 70% 86% 14% / 60% 29% 71% 40% ;
+    }
+    .box{
+        width: 330px;
+        border: 2px dotted rgb(209, 209, 209);
+    }
+    .photo{
+        width: 300px;
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+    .links{
+        font-size: 15px;
+        margin: 4px 0 10px 50px;
+    }
+    .head{
+      text-align: left;
+        padding-top: 100px;
+        white-space: pre;
+        font-size: 25px;
+    }
+    .footer-left{
+margin-left: 70px;
+    }
+    .footer-right{
+        margin-right: 70px;
+    }
+    .check{
+        font-size: 20px;
+    }
+}
